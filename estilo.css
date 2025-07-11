@@ -1,0 +1,98 @@
+.tp{
+    text-align: center;
+  
+    color:#F5793B;
+    font-size: 70px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration:underline ;
+    margin: 10px;
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    ;
+    
+}
+body{
+    background-color: #ecd996;
+}
+
+.t1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px; 
+    color: #F5793B;
+}
+
+.menu{
+    list-style:none ;
+    padding: 0;
+    background: #F5793B;
+    width: 70%;
+    max-width: 950px;
+    margin: auto;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;   
+}
+.menu li a:hover{
+    background: #ef8354;
+}
+.contacto {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+}
+
+.informacion {
+    display: flex;
+    gap: 20px; 
+}
+.contactoT {
+    display: flex;
+    flex-direction: column; 
+}
+
+.contactoT h2,
+.contactoT p {
+    margin: 0; 
+}
+p{
+    font-family: 'Times New Roman', Times, serif; 
+    color: #F5793B;
+    font-size: 40px
+}
+h2{
+    font-family: 'Times New Roman', Times, serif; 
+    color: #F5793B;
+    font-size: 60px;
+    text-decoration: underline;
+}
+.correofer{
+    color: #F5793B;
+    font-size: 30px;
+    text-decoration: none;
+}
+.correofer:hover{
+    color: #ef8354;
+}
+.menub{
+    color: black;
+    font-size: 50px;
+    text-decoration: none;
+    border-radius: 10px;
+    list-style:none ;
+    background: #F5793B;
+    width: 10%;
+}
+.menub:hover{
+    color: rgb(59, 57, 57);
+}
