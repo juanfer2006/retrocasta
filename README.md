@@ -2,6 +2,7 @@ RETROCASTA
 RETROCASTA es una página web informativa sobre maquinaria pesada utilizada en proyectos de construcción y excavación. El sitio presenta imágenes, descripciones y especificaciones de los equipos más destacados del grupo.
 
 🌐 Contenido del sitio
+
 Inicio: Bienvenida al sitio y presentación general.
 
 Equipo: Galería de la maquinaria con sus características.
