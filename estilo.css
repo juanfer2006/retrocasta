@@ -13,8 +13,6 @@
     justify-content: center;
     padding: 100px;
     
-    ;
-    
 }
 body {
     background-color: #f6f1e9;
@@ -49,6 +47,7 @@ body {
     color: white;
     font-weight: bold;
     font-size: 1.1rem;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 .menu li{
     display: flex;
@@ -59,20 +58,7 @@ body {
     color: #b84d1f;
     transform: translateY(-5px);
 }
-.contacto {
-    display: flex;
-    flex-direction: column; 
-    gap: 20px; 
-}
 
-.informacion {
-    display: flex;
-    gap: 20px; 
-}
-.contactoT {
-    display: flex;
-    flex-direction: column; 
-}
 
 .contactoT h2,
 .contactoT p {
@@ -97,18 +83,7 @@ h2{
 .correofer:hover{
     color: #ef8354;
 }
-.menub{
-    color: black;
-    font-size: 50px;
-    text-decoration: none;
-    border-radius: 10px;
-    list-style:none ;
-    background: #F5793B;
-    width: 10%;
-}
-.menub:hover{
-    color: rgb(59, 57, 57);
-}
+
 .titulo {
     text-align: center;
     margin-top: 30px;
@@ -116,7 +91,6 @@ h2{
     color: #c55a00;
     letter-spacing: 2px;
 }
-
 
 .contenedor {
     max-width: 1100px;
@@ -133,19 +107,26 @@ h2{
     margin-bottom: 5px;
     border-radius: 12px;
     box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+.card:hover {
+    transform: translateY(-6px); /* se levanta */
+    box-shadow: 0 8px 18px rgba(0,0,0,0.3);
+}
 .card img {
     width: 320px;          
     height: 220px;         
     object-fit: cover;     
     border-radius: 8px;
+    transition: transform 0.4s ease;
 }
-
-
+.card:hover img {
+    transform: scale(1.05);
+}
 .card .texto h2 {
     color: #c55a00;
     font-size: 26px;
+    margin-bottom: 5px;
 }
 
 .btn-menu {
@@ -171,8 +152,12 @@ h2{
     }
 }
 .menu li img {
-    width: 120px;      /* 👈 mismo ancho para todos */
-    height: 120px;     /* 👈 misma altura */
-    object-fit: contain; /* 👈 no se deforman */
+    width: 120px;      
+    height: 120px;    
+    object-fit: contain; 
     margin-bottom: 10px;
+}
+.card .texto p {
+    font-size: 18px;
+    color: #555;
 }
