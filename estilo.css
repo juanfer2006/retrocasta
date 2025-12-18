@@ -60,10 +60,19 @@ body {
 }
 
 
-.contactoT h2,
-.contactoT p {
+.contactoT h2{
     margin: 0; 
+    font-size: 22px;
+    color: #e67e22;
+    
 }
+.contactoT p,
+.contactoT a{
+    margin-top: 8px;
+    font-size: 20px;
+    color: #202020;
+    text-decoration: none;
+} 
 p{
     font-family: 'Times New Roman', Times, serif; 
     color: #F5793B;
@@ -74,14 +83,6 @@ h2{
     color: #F5793B;
     font-size: 60px;
     text-decoration: underline;
-}
-.correofer{
-    color: #F5793B;
-    font-size: 30px;
-    text-decoration: none;
-}
-.correofer:hover{
-    color: #ef8354;
 }
 
 .titulo {
@@ -110,7 +111,7 @@ h2{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .card:hover {
-    transform: translateY(-6px); /* se levanta */
+    transform: translateY(-6px);
     box-shadow: 0 8px 18px rgba(0,0,0,0.3);
 }
 .card img {
@@ -160,4 +161,27 @@ h2{
 .card .texto p {
     font-size: 18px;
     color: #555;
+}
+.contacto {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+.informacion {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.informacion:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+.informacion img {
+    width: 80px;
 }
